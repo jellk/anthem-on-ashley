@@ -33,15 +33,7 @@
   {{ "bootstrap.js" | asset_url | script_tag }}
 
   <!-- Google Map -->
-  <script type="text/javascript">
-    var map;
-    function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -34.397, lng: 150.644},
-        zoom: 8
-      });
-    }
-  </script>
+  {{ "google-map.js" | asset_url | script_tag }}
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHjfEAx3kun_6_SvIHIdSl04ayMBuRRi0&callback=initMap">
     </script>

@@ -42,3 +42,20 @@ img {
 	background-position: center; 
 	height: 759px;
 }
+
+// Footer
+footer {
+	position: relative;
+	height: 400px;
+	background-image: url('../images/grill.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	margin: 0 auto;
+	padding: 5%;
+	color: #fff;
+}
+
+.copyright {
+	margin-top: 8%;
+}

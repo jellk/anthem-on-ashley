@@ -5903,6 +5903,22 @@ img {
   height: 759px;
 }
 
+footer {
+  position: relative;
+  height: 400px;
+  background-image: url("../images/grill.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding: 5%;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 8%;
+}
+
 .text-hide {
   font: 0/0 a;
   color: transparent;

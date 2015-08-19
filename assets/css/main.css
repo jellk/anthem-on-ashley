@@ -5875,6 +5875,10 @@ img {
   margin: auto;
 }
 
+#map {
+  height: 500px;
+}
+
 .divider {
   position: relative;
   height: 76px;
@@ -5890,7 +5894,7 @@ img {
   padding-left: 5%;
 }
 
-.footer {
+.img-section {
   position: relative;
   background-image: url("../images/footer.jpg");
   background-repeat: no-repeat;

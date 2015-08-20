@@ -7,11 +7,18 @@ body, html{
   background-color: #000;
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #32291a;
 }
 
 img {
 	display: block;
 	margin: auto;
+}
+
+.container {
+	max-width: 900px;
 }
 
 // Google map 
@@ -34,13 +41,11 @@ img {
 	padding-left: 5%;
 }
 
-.img-section {
-	position: relative;
-	background-image: url('../images/footer.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; 
-	height: 759px;
+.img-section p {
+	padding-left: 1%;
+	border-left: 1px solid #000;
+	margin-top: 5%;
+	line-height: 25px;
 }
 
 // Footer

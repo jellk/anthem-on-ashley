@@ -5,6 +5,7 @@
   <title>Anthem</title>
 
   <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- Device Specific Metadata -->
   <meta name="viewport" content="width=device-width">
@@ -27,8 +28,84 @@
 </header>
     <!-- Content block, child page inject content -->
      
-	<div>
-		<img src="assets/images/anthem_splash.jpg" alt="" class="img-responsive">	
+	<div class="container">
+
+		<!-- Header -->
+		<header>
+			<img src="assets/images/header.jpg" alt="" class="img-responsive">	
+			<img src="assets/images/banner.jpg" alt="" class="img-responsive">	
+		</header>
+		
+		<!-- Content -->
+		<section id="content">
+			<!-- Divider -->
+			<div class="divider">
+			</div>
+
+			<!-- Image -->
+			<div class="img-section">
+				<div>
+					<img src="assets/images/footer.jpg" alt="" class="img-responsive">	
+				</div>
+		</section>
+		
+		<!-- Google Map -->
+		<section id="google-map">
+			<!-- Divider -->
+			<div class="divider">
+				<p>
+					CHECK OUT THE NEIGHBORHOOD
+				</p>
+			</div>
+
+			<!-- Google Map -->
+			<div id="map"></div>
+		</section>
+		
+		<!-- Footer -->
+		<footer>
+			<div class="row">
+
+				<!-- Contact Form -->
+				<div class="col-xs-6">
+					<p>SIGN UP FOR LATEST NEWS AND UPDATES</p>
+					<form>
+					  <div class="form-group">
+					    <label for="user-name"></label>
+					    <input type="email" class="form-control" id="user-name" placeholder="Your Name">
+					    <label for="email-address"></label>
+					    <input type="email" class="form-control" id="email-address" placeholder="Your Email Address">
+					  </div>
+					  <button type="submit" class="btn btn-default submit-btn">SUBMIT</button>
+					</form>
+					<br>
+					<div class="copyrights">
+						<p>Copyright © 2015 Anthem on Ashley <br>
+							All Rights Reserved | Owned and * Operated by NAP</p>
+					</div>
+				</div>
+
+				<!--Social Media -->
+				<div class="col-xs-5 col-sm-offset-1">
+					<p>CONNECT WITH US</p>
+					<div class="social-icons">
+						<i class="fa fa-facebook-square"></i>
+						<i class="fa fa-youtube"></i>
+						<i class="fa fa-pinterest"></i>
+						<i class="fa fa-twitter"></i>
+					</div>
+					<br>
+					<p>
+						1234 Ralph McGill Blvd.
+						<br>
+						Atlanta, GA 30002
+					</p>
+					<br>
+					<img src="assets/images/nap-logo.png" alt="" class="img-responsive">
+				</div>
+			</div>
+		</footer>
+	
 	</div>
 
   </div>
@@ -36,6 +113,12 @@
   <!-- Vendor Scripts -->
   <script src="assets/scripts/jquery.min.js"></script>
   <script src="assets/scripts/bootstrap.min.js"></script>
+
+  <!-- Google Map -->
+  <script src="assets/scripts/google-map.min.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHjfEAx3kun_6_SvIHIdSl04ayMBuRRi0&callback=initMap">
+    </script>
 
   <!-- Script block allowing child pages to inject their own scripts -->
   

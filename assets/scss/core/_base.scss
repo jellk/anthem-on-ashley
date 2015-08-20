@@ -49,6 +49,32 @@ img {
 	line-height: 25px;
 }
 
+//Form
+
+.form-control {
+	border-radius: 0;
+}
+
+.submit-btn {
+	background-image: url('../images/button-bg.jpg');
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.form-control::-moz-placeholder {
+	color: #000; 
+	opacity: 1; 
+}
+.form-control:-ms-input-placeholder {
+	color: #000; 
+}
+.form-control::-webkit-input-placeholder {
+	color: #000; 
+}
+
 // Footer
 footer {
 	position: relative;
@@ -63,7 +89,7 @@ footer {
 }
 
 .social-icons {
-	font-size: 30px;
+	font-size: em(50);
 }
 
 .copyright {

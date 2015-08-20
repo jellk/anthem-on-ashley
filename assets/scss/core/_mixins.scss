@@ -17,6 +17,13 @@
   }
 }
 
+// Convert px to em
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
 //modifier
 //add-- when you make a new file
 @mixin m($modifier) {

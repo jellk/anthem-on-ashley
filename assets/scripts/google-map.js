@@ -47,9 +47,12 @@ function initMap() {
         mapOptions);
 
 	// Google Map Pin Marker
-	var marker1 = new google.maps.Marker({
-    position: loc1,
+	var iconBase = '../assets/images/';
+
+	var marker = new google.maps.Marker({
+    position: loc,
     map: map,
-    title: 'Atlanta Office'
+    icon: iconBase + 'marker.png',
+    title: 'Anthem on Ashley'
   });
 }

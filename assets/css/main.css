@@ -5870,6 +5870,7 @@ body, html {
   width: 100%;
   font-weight: 700;
   color: #000;
+  letter-spacing: 0.25em;
 }
 
 img {
@@ -5899,6 +5900,17 @@ img {
 .divider > p {
   text-align: left;
   padding-left: 5%;
+  font-size: 1.125em;
+  transform: scale(1, 1.2);
+  /* W3C */
+  -webkit-transform: scale(1, 1.2);
+  /* Safari and Chrome */
+  -moz-transform: scale(1, 1.2);
+  /* Firefox */
+  -ms-transform: scale(1, 1.2);
+  /* IE 9 */
+  -o-transform: scale(1, 1.2);
+  /* Opera */
 }
 
 .img-section p {
@@ -5910,6 +5922,7 @@ img {
 
 .form-control {
   border-radius: 0;
+  width: 21.875em;
 }
 
 .submit-btn {
@@ -5919,6 +5932,9 @@ img {
   border-radius: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  font-weight: bold;
+  letter-spacing: 0.1875em;
+  font-size: 1.25em;
 }
 
 .form-control::-moz-placeholder {
@@ -5946,13 +5962,30 @@ footer {
   color: #fff;
 }
 
+footer h4 {
+  font-size: 1.375em;
+}
+
 .social-icons {
   font-size: 3.125em;
 }
 
+footer p {
+  letter-spacing: 0;
+}
+
+.social-media p {
+  font-size: 1.1875em;
+}
+
+.social-media img {
+  margin-top: 10px;
+}
+
 .copyright {
   margin-top: 8%;
-  font-size: 12px;
+  font-size: 0.625em;
+  letter-spacing: 0;
 }
 
 .text-hide {

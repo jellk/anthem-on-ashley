@@ -1066,7 +1066,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "montserratlight", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -5868,9 +5868,9 @@ body, html {
   background-color: #000;
   height: 100%;
   width: 100%;
-  font-family: 'Montserrat';
   font-weight: 700;
   color: #000;
+  letter-spacing: 0.25em;
 }
 
 img {
@@ -5900,6 +5900,17 @@ img {
 .divider > p {
   text-align: left;
   padding-left: 5%;
+  font-size: 1.125em;
+  transform: scale(1, 1.2);
+  /* W3C */
+  -webkit-transform: scale(1, 1.2);
+  /* Safari and Chrome */
+  -moz-transform: scale(1, 1.2);
+  /* Firefox */
+  -ms-transform: scale(1, 1.2);
+  /* IE 9 */
+  -o-transform: scale(1, 1.2);
+  /* Opera */
 }
 
 .img-section p {
@@ -5911,6 +5922,7 @@ img {
 
 .form-control {
   border-radius: 0;
+  width: 21.875em;
 }
 
 .submit-btn {
@@ -5920,6 +5932,9 @@ img {
   border-radius: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  font-weight: bold;
+  letter-spacing: 0.1875em;
+  font-size: 1.25em;
 }
 
 .form-control::-moz-placeholder {
@@ -5947,13 +5962,26 @@ footer {
   color: #fff;
 }
 
+footer h4 {
+  font-size: 1.375em;
+}
+
 .social-icons {
   font-size: 3.125em;
 }
 
+footer p {
+  letter-spacing: 0;
+}
+
+.social-media p {
+  font-size: 1.375em;
+}
+
 .copyright {
   margin-top: 8%;
-  font-size: 12px;
+  font-size: 0.75em;
+  letter-spacing: 0;
 }
 
 .text-hide {
@@ -5970,4 +5998,12 @@ footer {
 
 .no-margin {
   margin: 0 !important;
+}
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.eot");
+  src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }

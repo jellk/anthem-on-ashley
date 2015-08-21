@@ -1069,7 +1069,7 @@ body {
   font-family: "montserratlight", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
+  color: #000;
   background-color: #fff;
 }
 
@@ -3092,7 +3092,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #404040;
 }
 
 @media (min-width: 768px) {
@@ -5868,8 +5868,6 @@ body, html {
   background-color: #000;
   height: 100%;
   width: 100%;
-  font-weight: 700;
-  color: #000;
   letter-spacing: 0.25em;
 }
 
@@ -5882,8 +5880,20 @@ img {
   max-width: 900px;
 }
 
-#map {
-  height: 500px;
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
 }
 
 .divider {
@@ -5913,16 +5923,20 @@ img {
   /* Opera */
 }
 
-.img-section p {
-  padding-left: 1%;
-  border-left: 1px solid #000;
-  margin-top: 5%;
-  line-height: 25px;
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.eot");
+  src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 .form-control {
   border-radius: 0;
   width: 21.875em;
+}
+
+.newsletter-title {
+  margin-bottom: 13px;
 }
 
 .submit-btn {
@@ -5950,6 +5964,10 @@ img {
   color: #000;
 }
 
+#map {
+  height: 390px;
+}
+
 footer {
   position: relative;
   height: 400px;
@@ -5961,21 +5979,33 @@ footer {
   padding: 5%;
   color: #fff;
 }
+footer #footer-text {
+  margin-top: 1.5625em;
+}
+
+a.social {
+  color: #fff;
+  text-decoration: none;
+}
 
 footer h4 {
   font-size: 1.375em;
+}
+
+.social-icons, .social-media p {
+  margin-top: 0.625em;
 }
 
 .social-icons {
   font-size: 3.125em;
 }
 
-footer p {
-  letter-spacing: 0;
+.social-media p {
+  font-size: 1.25em;
 }
 
-.social-media p {
-  font-size: 1.1875em;
+footer p {
+  letter-spacing: 0;
 }
 
 .social-media img {
@@ -5983,31 +6013,6 @@ footer p {
 }
 
 .copyright {
-  margin-top: 8%;
-  font-size: 0.625em;
+  margin-top: 1em;
   letter-spacing: 0;
-}
-
-.text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
-.no-padding {
-  padding: 0 !important;
-}
-
-.no-margin {
-  margin: 0 !important;
-}
-
-@font-face {
-  font-family: 'montserratlight';
-  src: url("../fonts/montserrat-light-webfont.eot");
-  src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }

@@ -2,79 +2,16 @@
 	<div class="container">
 
 		<!-- Header -->
-		<header>
-			<img src="{{'header.jpg' | asset_url}}" alt="" class="img-responsive">	
-			<img src="{{'banner.jpg' | asset_url}}" alt="" class="img-responsive">	
-		</header>
+		{% include "header" %}
 		
 		<!-- Content -->
-		<section id="content">
-			<!-- Divider -->
-			<div class="divider">
-			</div>
-
-			<!-- Image -->
-			<div class="img-section">
-				<div>
-					<img src="{{'footer-new.jpg' | asset_url}}" alt="" class="img-responsive">	
-				</div>
-		</section>
+		{% include "main" %}
 		
 		<!-- Google Map -->
-		<section id="google-map">
-			<!-- Divider -->
-			<div class="divider">
-				<p>
-					CHECK OUT THE NEIGHBORHOOD
-				</p>
-			</div>
-
-			<!-- Google Map -->
-			<div id="map"></div>
-		</section>
+		{% include "google-map" %}
 		
 		<!-- Footer -->
-		<footer>
-			<div class="row">
-
-				<!-- Contact Form -->
-				<div class="col-xs-6">
-					<h4>SIGN UP FOR LATEST <br> NEWS AND UPDATES</h4>
-					<form>
-					  <div class="form-group">
-					    <label for="user-name"></label>
-					    <input type="email" class="form-control" id="user-name" placeholder="Your Name">
-					    <label for="email-address"></label>
-					    <input type="email" class="form-control" id="email-address" placeholder="Your Email Address">
-					  </div>
-					  <button type="submit" class="btn btn-default submit-btn">SUBMIT</button>
-					</form>
-					<br>
-					<br>
-					<div class="copyrights">
-						<p>Copyright &copy; 2015 Anthem on Ashley <br>
-							All Rights Reserved | Owned and * Operated by NAP</p>
-					</div>
-				</div>
-
-				<!--Social Media -->
-				<div class="col-xs-5 col-sm-offset-1 social-media">
-					<h4>CONNECT WITH US</h4>
-					<div class="social-icons">
-						<i class="fa fa-facebook-square"></i>
-						<i class="fa fa-youtube"></i>
-						<i class="fa fa-pinterest"></i>
-						<i class="fa fa-twitter"></i>
-					</div>
-					<br>
-					<address><p>
-						1234 Ralph McGill Blvd.<br>
-						Atlanta, GA 30002
-					</p></address>
-					<img src="{{'nap-logo.png' | asset_url}}" alt="" class="img-responsive">
-				</div>
-			</div>
-		</footer>
+		{% include "footer" %}
 	
 	</div>
 {% endblock %}

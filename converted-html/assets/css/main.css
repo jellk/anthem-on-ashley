@@ -5883,7 +5883,7 @@ img {
 }
 
 #map {
-  height: 500px;
+  height: 390px;
 }
 
 .divider {
@@ -5925,6 +5925,10 @@ img {
   width: 21.875em;
 }
 
+.newsletter-title {
+  margin-bottom: 13px;
+}
+
 .submit-btn {
   background-image: url("../images/button-bg.jpg");
   cursor: pointer;
@@ -5961,26 +5965,41 @@ footer {
   padding: 5%;
   color: #fff;
 }
+footer #footer-text {
+  margin-top: 25px;
+}
+
+a.social {
+  color: #fff;
+  text-decoration: none;
+}
 
 footer h4 {
   font-size: 1.375em;
+}
+
+.social-icons, .social-media p {
+  margin-top: 0.625em;
 }
 
 .social-icons {
   font-size: 3.125em;
 }
 
+.social-media p {
+  font-size: 1.25em;
+}
+
 footer p {
   letter-spacing: 0;
 }
 
-.social-media p {
-  font-size: 1.375em;
+.social-media img {
+  margin-top: 74px;
 }
 
 .copyright {
-  margin-top: 8%;
-  font-size: 0.75em;
+  margin-top: 1em;
   letter-spacing: 0;
 }
 

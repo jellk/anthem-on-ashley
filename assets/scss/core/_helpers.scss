@@ -17,3 +17,27 @@
 .no-margin{
   margin:0 !important;
 }
+
+// Divider
+.divider{
+	position: relative;
+	height: 53px;
+	background: url('../images/divider-new.jpg') no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 53px;
+	background-size: cover; 
+
+}
+
+.divider > p {
+	text-align: left;
+	padding-left: 5%;
+	font-size: em(18);
+	transform:scale(1,1.2); /* W3C */
+	-webkit-transform:scale(1,1.2); /* Safari and Chrome */
+	-moz-transform:scale(1,1.2); /* Firefox */
+	-ms-transform:scale(1,1.2); /* IE 9 */
+	-o-transform:scale(1,1.2); /* Opera */
+}

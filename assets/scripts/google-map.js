@@ -1,6 +1,6 @@
 function initMap() {
 
-	var loc = new google.maps.LatLng(33.7675978,-84.3694652);
+	var loc = new google.maps.LatLng(33.7661902,-84.3638695);
 
 	var main_color = '#ff0000',
 	landscape = '#b8aea5',

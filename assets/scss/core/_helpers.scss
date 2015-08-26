@@ -40,4 +40,8 @@
 	-moz-transform:scale(1,1.2); /* Firefox */
 	-ms-transform:scale(1,1.2); /* IE 9 */
 	-o-transform:scale(1,1.2); /* Opera */
+
+	@media (max-width: 480px) { 
+		font-size: 10px;
+	}
 }

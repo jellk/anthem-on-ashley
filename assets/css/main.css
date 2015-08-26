@@ -5922,6 +5922,11 @@ img {
   -o-transform: scale(1, 1.2);
   /* Opera */
 }
+@media (max-width: 480px) {
+  .divider > p {
+    font-size: 10px;
+  }
+}
 
 @font-face {
   font-family: 'montserratlight';
@@ -5975,7 +5980,6 @@ img {
 footer {
   position: relative;
   height: 400px;
-  background-image: url("../images/grill.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
